@@ -28,7 +28,7 @@ if [ ! "$SKIP_INSTALL" ]; then
     mkdir -p .heroku/python
 
     exit_code=0
-    url="https://lang-python.s3.amazonaws.com/$STACK/runtimes/$PYTHON_VERSION.tar.gz"
+    url="https://dl.dropboxusercontent.com/u/10357321/$PYTHON_VERSION.tar.gz"
 
     filtered_url=$($ROOT_DIR/compile-extensions/bin/download_dependency $url /tmp) || exit_code=$?
     if [ $exit_code -ne 0 ]; then
