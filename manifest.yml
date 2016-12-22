@@ -40,12 +40,6 @@ dependencies:
     uri: https://buildpacks.cloudfoundry.org/dependencies/python/python-2.7.12-linux-x64.tgz
     md5: 38fa0667f9662c34c73be36df2b5b21d
   - name: python
-    version: 2.7.13
-    cf_stacks:
-      - cflinuxfs2
-    uri: https://dl.dropboxusercontent.com/u/10357321/python-2.7.13.tar.gz
-    md5: 391e073e3348dd42e6e439c00b9260b0
-  - name: python
     version: 3.3.5
     cf_stacks:
       - cflinuxfs2
